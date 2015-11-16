@@ -1,0 +1,16 @@
+Hello,
+
+This code sample comes from a class project wherein I implemented a processor in verilog.
+
+The code for the processor is contained in the verilog/src/ directory.
+
+The cpp/src/ directory contains a toy program I wrote to complement the processor; it takes an
+input file (similar to x86 assembly syntax that I created) and generates machine code from it;
+this output file can be read in and executed by the verilog processor module.
+
+I chose this particular set of programs as a code sample since I felt that it is a good measure of
+one's good coding practice if someone else unfamiliar with the chosen language can still read and
+understand the program easily. Hence, Verilog. (I am currently working on writing a simulator for
+VHDL, another hardware-description language, but that is still a work-in-progress.)
+
+--Rebecca Frederick
